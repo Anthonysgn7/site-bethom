@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas - Graphiste freelance</title>
+    <meta name="description"
+        content="Thomas, graphiste freelance : portfolio, articles et contact. Design d'interfaces, illustration et identité visuelle.">
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#accueil">BeThom</a>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#articles">Blog</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="burger" aria-label="Ouvrir le menu">☰</button>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <div>
+                <h1>Hi, Je suis Thomas, Graphiste</h1>
+                <p>Passionné par le code et le design, j’aide les entreprises et les créateurs à développer des sites
+                    modernes, performants et adaptés à leurs besoins. Mon objectif est de transformer vos idées en
+                    expériences numériques fluides et efficaces.</p>
+                <a href="assets/cv-thomas.pdf" download>Télécharger mon CV</a>
+            </div>
+            <img src="assets/images/thomas.webp" alt="Portrait de Thomas">
+        </section>
+        <section id="articles">
+            <h2>Articles récents</h2>
+            <a href="#">View all</a>
+            <article>
+                <h3>Créer un design system à partir de zéro</h3>
+                <p>12 Feb 2020 | Design, Pattern</p>
+                <p>Dans cet article, je partage mon approche pour mettre en place un design system clair et efficace,
+                    afin de garantir la cohérence visuelle d’un projet digital.</p>
+            </article>
+            <article>
+                <h3>Créer des icônes pixel perfect dans Figma</h3>
+                <p>12 Feb 2020 | Figma, Icon Design</p>
+                <p>Découvrez mes techniques pour concevoir des icônes nettes et précises dans Figma, adaptées aussi bien
+                    au web qu’aux applications mobiles.</p>
+            </article>
+        </section>
+        <section id="portfolio">
+            <h2>Travaux en vedette</h2>
+            <article>
+                <img src="assets/images/projet-dashboard.webp" alt="Interface d'un tableau de bord sur fond sombre">
+                <div>
+                    <h3>Design de tableaux de bord</h3>
+                    <p class="infos"><span>2020</span> Dashboard</p>
+                    <p>Un projet de conception d'interface utilisateur pour une plateforme de gestion. L'objectif était
+                        de proposer un tableau de bord intuitif et esthétique.</p>
+                </div>
+            </article>
+            <article>
+                <img src="assets/images/projet-portraits.webp"
+                    alt="Illustration d'une femme aux cheveux violets et à la fleur jaune, sur fond pêche">
+                <div>
+                    <h3>Portraits vibrants de 2020</h3>
+                    <p class="infos"><span>2018</span> Illustration</p>
+                    <p>Série d'illustrations numériques réalisées avec une palette de couleurs audacieuses, explorant
+                        l'identité et l'émotion à travers le portrait.</p>
+                </div>
+            </article>
+            <article>
+                <img src="assets/images/projet-typo.webp" alt="Lettre ornementale crème sur fond brun foncé">
+                <div>
+                    <h3>36 jours de typographie</h3>
+                    <p class="infos"><span>2018</span> Typography</p>
+                    <p>Un projet créatif consistant à explorer et styliser les caractères de la typographie malayalam à
+                        travers une série de visuels graphiques.</p>
+                </div>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Me contacter</h2>
+            <div>
+                <h3>Parlons-en</h3>
+                <p>Vous avez une grande idée ou un projet à développer et besoin d'aide ? Contactez-moi, je serai ravi
+                    d'échanger avec vous et de vous accompagner.</p>
+                <h3>Email</h3>
+                <p><a href="mailto:beebs@gmail.com">beebs@gmail.com</a></p>
+                <h3>Socials</h3>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+            <form>
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="service">Quel service vous intéresse</label>
+                <select id="service" name="service">
+                    <option value="">Choisir un type de projet</option>
+                    <option>Identité visuelle</option>
+                    <option>Interface (UI)</option>
+                    <option>Illustration</option>
+                </select>
+
+                <label for="budget">Budget</label>
+                <select id="budget" name="budget">
+                    <option value="">Choisir un budget</option>
+                    <option>Moins de 1 000 €</option>
+                    <option>1 000 € à 5 000 €</option>
+                    <option>Plus de 5 000 €</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6"></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="assets/images/instagram.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="assets/images/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="assets/images/linkedin.png" alt="LinkedIn"></a></li>
+        </ul>
+        <p>Copyright ©2020 All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
