@@ -2,7 +2,7 @@
 
 Site vitrine responsive (desktop et mobile) intégré à partir d'une maquette Figma, en HTML5, CSS3 et un peu de JavaScript.
 
-Site en ligne : (lien à ajouter après la mise en ligne)
+Site en ligne : Site en ligne : https://bethom-anthony.alwaysdata.net
 
 ## Installation
 
